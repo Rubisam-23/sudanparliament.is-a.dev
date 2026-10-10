@@ -1,2 +1,7 @@
-# sudanparliament-is-a-dev
-It;s a public platform for Sudanese Professionals to express their political right in restructuring the coming government once the war is over
+# Sudanese Professionals Parliament (SPP)
+
+Next.js 14 App Router + Supabase + Cloudflare Workers (OpenNext).
+
+Zip this folder and upload to Kimi Cowork for deployment to:
+
+`sudanprofessionalparliament.pages.dev`
