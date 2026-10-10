@@ -1,0 +1,6 @@
+name = "sudanparliament-is-a-dev"
+compatibility_date = "2026-10-10"
+workers_dev = true
+
+[observability]
+enabled = true
