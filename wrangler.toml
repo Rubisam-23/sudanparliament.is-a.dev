@@ -1,3 +1,5 @@
-name = "spp-platform"
-main = "./.open-next/worker.js"
+name = "sudanparliament-is-a-dev"
 compatibility_date = "2024-09-01"
+
+[observability]
+enabled = true
