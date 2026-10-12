@@ -1,7 +1,3 @@
-export default {
-  default: {
-    cloudflare: {
-      enabled: true
-    }
-  }
-};
+import { defineCloudflareConfig } from "@opennextjs/cloudflare";
+export default defineCloudflareConfig();
+
