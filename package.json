@@ -14,3 +14,9 @@
     "@supabase/supabase-js": "^2.45.0"
   }
 }
+{
+  "scripts": {
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview"
+  }
+}
