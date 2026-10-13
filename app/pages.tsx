@@ -10,9 +10,7 @@ export default function HomePage() {
     >
       <h1>Sudanese Professionals Parliament (SPP)</h1>
 
-      <p>
-        Drafting the Future of Sudan.
-      </p>
+      <p>Drafting the Future of Sudan.</p>
 
       <hr />
 
@@ -37,5 +35,4 @@ export default function HomePage() {
       </p>
     </main>
   );
-}
 }
