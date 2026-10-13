@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
-  const lang = 'en';
+  const lang : string = 'en';
   const dir = lang === 'ar' ? 'rtl' : 'ltr';
 
   return (
