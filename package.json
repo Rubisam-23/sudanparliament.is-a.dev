@@ -5,17 +5,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "next": "14.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "@supabase/supabase-js": "^2.45.0"
+    "@supabase/supabase-js": "^2.45.0",
+    "@supabase/ssr": "latest"
   },
   "devDependencies": {
     "typescript": "^5.5.4",
     "@types/react": "^18.3.3",
-    "@types/node": "^20.14.10"
+    "@types/node": "^20.14.10",
+    "@opennextjs/cloudflare": "latest",
+    "wrangler": "latest"
   }
 }
